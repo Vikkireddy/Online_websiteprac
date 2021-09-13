@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+	}
+.nav-bar{
+	font-family:'Oswald', sans-serif;
+	}
+.top{
+	margin-top:25px;
+	}
+.color{
+	color:#fff;
+	}
+.black{
+	color:#000;
+	}
+.bot{
+	padding-bottom:10px;
+}
+.text-white{
+	color:#fff;	
+	}
+.align{
+	text-align:center;
+	padding-top:10px;
+	font-weight:bold;
+	padding-bottom:10px;	
+	}
+.space-1{
+	padding-bottom:2px;
+	}
+.high{
+	height:249px;
+	}
+.align1{
+	text-align:center;
+	padding-top:5px;
+	font-weight:bold;
+	padding-bottom:5px;	
+	}
+.height{
+	height:250px;
+	}
+.margin-bt{
+	padding-bottom:40px;
+	}
+.padding-nav{
+	padding-top:1px;
+	padding-bottom:2px;
+	}
+.header-color{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8fc400+0,8fc400+100;Green+Flat+%236 */
+background: rgb(143,196,0); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(143,196,0,1) 0%, rgba(143,196,0,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(143,196,0,1)), color-stop(100%,rgba(143,196,0,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(143,196,0,1) 0%,rgba(143,196,0,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(143,196,0,1) 0%,rgba(143,196,0,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(143,196,0,1) 0%,rgba(143,196,0,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(143,196,0,1) 0%,rgba(143,196,0,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8fc400', endColorstr='#8fc400',GradientType=0 ); /* IE6-9 */
+
+}
+.text-align{
+	text-align:center;
+	color:#000;
+	}
+nav ul{
+	list-style:none;
+	}
+nav ul li{
+	display:block;
+	font-size:14px;
+	padding:5px 0px 5px 0px;
+	border-bottom:1px dotted #666;
+	}
+nav ul li a{
+	text-decoration:none;
+	color:#000;
+}
+nav ul li a:hover{
+	color:#fff;
+	}
+.style{
+	font-size:14px;
+	}
+.color-whte{
+	color:#CCC;
+	padding:10px 0px;
+	font-size:12px;
+	}
+	
+	
+	/*Social Networking*/
+.social li { 
+	display:inline; 
+	float:left; 
+	background-repeat:no-repeat;
+	margin:0px 5px 0px 0px; 
+}
+.social li a { 
+	display:block; 
+	width:25px; 
+	height:25px; 
+	padding-right:6px; 
+	position:relative; 
+	text-decoration:none; 
+}
+
+li.facebook { 
+	background-image:url(../images/facebook.png); 
+}
+li.linkedin { 
+	background-image:url(../images/linkedin.png); 
+	}
+li.twitter { 
+	background-image:url(../images/twitter.png);
+	}
+li.gplus { 
+	background-image:url(../images/gplus.png);
+	}
+li.youtube { 
+	background-image:url(../images/youtube.png);
+	 }
+
+/* SOCIAL ICONS - CSS3 */
+#css3:hover li { 
+	opacity:0.2; 
+}
+#css3 li { 
+	-webkit-transition-property: opacity;
+	-webkit-transition-duration: 500ms;
+    -moz-transition-property: opacity; 
+	-moz-transition-duration: 500ms;
+}
+#css3 li a strong { 
+	opacity:0;
+ 	-webkit-transition-property: opacity, top; 	-webkit-transition-duration: 300ms;
+ 	-moz-transition-property: opacity, top;
+	-moz-transition-duration: 300ms; 
+}
+#css3 li:hover { 
+	opacity:1; 
+	}
+#css3 li:hover a strong { 
+	opacity:1; 
+	top:-10px; 
+	}
+
+/*Social Networking end*/
+.margin-bot{
+	padding-bottom:30px;
+	}
+.center{
+	text-align:center;
+	}
+.image-size{
+	margin:15px 0px 15px 0px;
+	}
+.border{
+	border-radius:10px;
+	border:1px solid #eeedec;
+	
+}
+.margin-top{
+	margin-top:50px;
+	}
+.text-big{
+	font-size:50px;
+	}
+.color-bl{
+	color:#3CF;
+	font-size:18px;
+	}
